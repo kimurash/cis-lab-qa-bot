@@ -1,0 +1,11 @@
+.venv/
+bin/
+lib/
+
+__pycache__/
+
+notebook/
+faiss_store/
+
+.env
+CACHEDIR.TAG
