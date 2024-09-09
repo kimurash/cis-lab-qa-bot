@@ -30,7 +30,7 @@ def create_db():
         docs += create_documents(page_title)
 
         # 無料プランでは15[requests/minute]
-        if idx % 14 == 0:
+        if idx % 10 == 0:
             time.sleep(60)
     
     # ドキュメントをデータベースに保存する
